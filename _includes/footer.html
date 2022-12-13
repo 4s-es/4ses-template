@@ -14,7 +14,8 @@
         {% endif %}
 
         <div class="content is-small has-text-centered">
-            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+            <p class="">&copy;{{ site.since | default: "2021" }} - {{ 'now' | date: "%Y" }} {{ page.author | default: site.author }}  </p>
+            <p class="" style="font-size:xx-small;">Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a></p>
         </div>
     </div>
 </footer>
